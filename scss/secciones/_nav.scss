@@ -1,0 +1,31 @@
+.contenedor-nav{
+display: flex;
+background-color:$blanco;
+height: 600px;
+flex-direction: column;
+
+}
+.logo{
+    display: flex;
+    
+    .nombre-empresa{
+        font-size: 50px;
+    }
+    & img{
+       width: 3em; 
+    }
+}
+.collapse{
+    justify-content: space-around;
+}
+.container-fluid{
+    display: flex;
+}
+.ajuste-ul{
+    font-size: 30px;
+    & .nav-link{
+        color: black;
+        text-align: center;
+        margin: 0 1em;
+    }
+}
