@@ -1,6 +1,99 @@
-@media (min-width: 768px){
+@media (min-width: 768px) {
+
     //mediaquery del footer//
-    .pie-de-pagina{
+    .pie-de-pagina {
         flex-direction: row;
     }
+    //quienes somos//
+
+    .fundo{
+        .cont-dividido2{
+            .simple-texto2{
+                width: 30vw;
+                & h1{
+                    font-size: 50px;
+                }
+                & p{
+                    font-size: 30px;
+                }
+            }
+            .imagendecontdividido{
+                height: 45vh;
+            }
+        }
+        .cont-dividido3{
+            flex-direction: row;
+            align-items: normal;
+            .simple-texto3{
+                width: 40vw;
+            }
+            .imagendecontdividido3{
+                width: 20vh;
+            }
+        }
+    }
+
+
+
+
+    
+}
+
+@media (min-width: 1024px) {
+
+
+    
+    //index//
+    .imagen-cont {
+        .capa {
+            & h2 {
+                padding: 0;
+                font-size: 40px;
+            }
+        }
+    }
+
+    .cont-dividido {
+        .do-slider {
+
+          
+
+            .otro-slider {
+                  .menu1 {
+                display: inline-block;
+            }
+                height: 40vh;
+
+                & li {
+                    height: 40vh;
+
+                    .texto-superpuesto1 {
+                        & h2 {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .simple-texto {
+            & h2 {
+                font-size: 40px;
+            }
+
+            & p {
+                font-size: 20px;
+            }
+        }
+    }
+
+        .tienda {
+            .secciones-tienda{
+                flex-direction: row;   
+                align-items: normal;
+                justify-content: space-around;
+               }
+           
+        }
+
 }

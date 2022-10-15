@@ -1,0 +1,127 @@
+.fundo{
+    background-image: url(../IMG/fundo2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    .cont-dividido2{
+
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20vh;
+
+
+        .simple-texto2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 40vw;
+
+            & h1{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+
+            }
+
+            & p {
+                color: white;
+                text-align: center;
+                font-size: 10px;
+            }
+
+        }
+
+
+        .imagendecontdividido{
+            height: 15vh;
+            width: 35vw;
+            & img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                border: 2px white solid;
+            }
+        }
+    }
+    .cont-dividido3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20vh;
+        .simple-texto3{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100vw;
+
+            & h1{
+                margin-top: 5vh;
+                color: white;
+                text-align: center;
+                font-size: 40px;
+
+            }
+
+
+
+        }
+        .imagendecontdividido3{
+            height: 20vh;
+            width: 30vw;
+            & img{
+                width: 100%;
+                height: 100%;
+                
+                
+            }
+        }
+
+
+    }
+
+    .card-container{
+        width: 100%;
+        max-width: 1300px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    
+    
+    
+    
+    
+        .card1{
+            width: 330px;
+            height: 450px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.616);
+    
+    
+            & img{
+                width: 330px;
+                height: 250px;
+            }
+            & h3 a{
+                color: white;
+                text-decoration: none;
+            }
+            & p{
+                color: white;
+            }
+        }
+    }
+
+
+
+}
+

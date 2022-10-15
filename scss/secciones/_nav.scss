@@ -1,18 +1,36 @@
+.navbar{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 .contenedor-nav{
 display: flex;
-background-color:$blanco;
+background-image: url(../IMG/fundonav4.jpg);
+background-size: cover;
+filter: contrast(90%);
+background-position: center;
 height: 600px;
 flex-direction: column;
 
+
 }
+
 .logo{
     display: flex;
+    filter: brightness(150%);
     
     .nombre-empresa{
         font-size: 50px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255),0px 0px 5px rgb(255, 255, 255);
+        /* se pueden superponer varias sombras */
+        
     }
     & img{
        width: 3em; 
+       filter: drop-shadow(0px 0px 5px  rgb(255, 255, 255));
+
+
+       
     }
 }
 .collapse{
@@ -20,12 +38,18 @@ flex-direction: column;
 }
 .container-fluid{
     display: flex;
+    & button{
+        
+        background-color: white;
+    }
 }
 .ajuste-ul{
     font-size: 30px;
     & .nav-link{
-        color: black;
+        color: white;
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
         text-align: center;
         margin: 0 1em;
+        
     }
 }
